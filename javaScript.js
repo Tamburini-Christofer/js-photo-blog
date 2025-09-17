@@ -18,8 +18,8 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/").then((response) => {
                             </div>
                             
                             <div> 
-                                    <p> ${card.title} </p> 
-                                    <date> ${card.date} </date>
+                                    <h4> ${card.title} </h4> 
+                                    <span> ${card.date} </span>
                             </div>
                     </div>`
         })
