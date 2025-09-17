@@ -3,10 +3,10 @@
 const contenitoreCard = document.getElementById("contenitoreMain");
 
 //Chiamiamo l'API 
-axios.get("https://lanciweb.github.io/demo/api/pictures/").then((response) => {
+axios.get("https://lanciweb.github.io/demo/api/pictures/")
+     .then((response) => {
         //Creiamo una variabile per salvare le Cards
         const cards = response.data;
-        console.log()
         //Creiamo una variabile che possa contenere tutta la card
         let post = "";
         //Facciamo un ciclo per creare le Card

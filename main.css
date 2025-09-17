@@ -42,14 +42,15 @@ img{
     position: relative;
     width: 250px;
     padding: 10px;
-    box-shadow: 5px 5px 5px -2px black;
+    box-shadow: 3px 3px 3px -2px black;
 
     background-color: rgb(255, 255, 255);
 }
 
 .card:hover{
     cursor: pointer;
-    transform: rotate(30deg) scale(1.1);
+    transform: rotate(10deg) scale(1.2);
+    box-shadow: 6px 6px 6px -2px black;
     z-index: 900;
 }
 
