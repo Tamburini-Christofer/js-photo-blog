@@ -26,16 +26,16 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         })
         contenitoreCard.innerHTML = post;
 
-        const immagine = document.querySelectorAll(".card");
+        const immagine = document.querySelectorAll(".card img");
         const overlayDisplay = document.getElementById("immagineOver");
         const bottone = document.getElementById("reset");
         const overlayImg = document.getElementById("overlayImg"); 
 
         immagine.forEach(card => {
           card.addEventListener("click", () => {
-            overlayImg.src = img.src; 
-            overlayImg.alt = img.alt; 
-          overlayDisplay.style.display = "flex";
+            overlayImg.src = card.src; 
+            overlayImg.alt = card.alt; 
+            overlayDisplay.style.display = "flex";
             });
         });
 

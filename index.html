@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photo Blog</title>
-    
+
     <!--Qui ho recuperato il font richiesto-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="main.css">
 
     <!-- Qui metttiamo l'axios -->
-     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -27,16 +27,16 @@
             <h1>ESTATE '24</h1>
         </div>
     </header>
+    <div id="immagineOver">
+        <button id="reset">Annulla X</button>
+        <img id="overlayImg" alt="immagine della Card ingrandita">
+    </div>
     <main>
-        <div id="immagineOver">
-            <button id="reset">Annulla X</button>
-            <img id="overlayImg" alt="immagine della Card ingrandita">
-        </div>
-        <div id="contenitoreMain"> 
-        <!-- Qui apparriranno le Card da javaScript -->
+        <div id="contenitoreMain">
+            <!-- Qui apparriranno le Card da javaScript -->
         </div>
     </main>
-        <!-- Collegamento Script JavaScript personale -->
+    <!-- Collegamento Script JavaScript personale -->
     <script src="javaScript.js"></script>
 </body>
 
